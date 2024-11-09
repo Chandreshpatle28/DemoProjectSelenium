@@ -16,9 +16,9 @@ public class HandlingLinks {
 		Thread.sleep(3000);
 		
 		//driver.findElement(By.linkText("Forgot your password? ")).click(); // not working for linktext because this is not a link, it is para...
-		driver.findElement(By.linkText("OrangeHRM, Inc")).click();
+		//driver.findElement(By.linkText("OrangeHRM, Inc")).click();
+		driver.findElement(By.partialLinkText("OrangeHRM, In")).click();
 		Thread.sleep(3000);
-
 		
 		driver.close();
 
