@@ -19,7 +19,7 @@ public class AutoSuggestiveDropdown {
 		
 		WebElement autoSg = driver.findElement(By.xpath("//input[@id='autosuggest']"));
 		
-		autoSg.sendKeys("ger");
+		autoSg.sendKeys("arg");
 		Thread.sleep(3000);
 //		
 //		autoSg.sendKeys(Keys.ARROW_DOWN);
@@ -34,7 +34,7 @@ public class AutoSuggestiveDropdown {
 		
 		for(int i=0; i<cc.size(); i++)
 		{
-			if(cc.get(i).getText().equals("Germany"))
+			if(cc.get(i).getText().equals("Argentina"))
 			{
 		        System.out.println("Your selected country name: " + cc.get(i).getText());
 				cc.get(i).click();
