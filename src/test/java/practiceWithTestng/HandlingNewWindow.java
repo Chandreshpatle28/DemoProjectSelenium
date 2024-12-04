@@ -1,5 +1,8 @@
 package practiceWithTestng;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
